@@ -8,6 +8,11 @@ import LocationOnIcon from '@mui/icons-material/LocationOn';
 import CallIcon from '@mui/icons-material/Call';
 import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
 import SendOutlinedIcon from '@mui/icons-material/SendOutlined';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import YouTubeIcon from '@mui/icons-material/YouTube';
 
 const Item = styled(Paper)(({ theme }) => ({
     padding: theme.spacing(1),
@@ -63,6 +68,7 @@ function Footer() {
                     <h2>REDPHANTOM</h2>
                     <p>Lets Fly High</p>
                     <b>Follow Us:</b>
+                    <p className='icons'><LinkedInIcon/> <TwitterIcon/> <FacebookIcon/> <InstagramIcon/> <YouTubeIcon/></p>
                    </div>
                 </Item>
             </Grid>
