@@ -1,0 +1,143 @@
+.programs__main{
+    padding: 2rem 15rem 2rem 15rem;
+    background: black;
+    color: white;
+}
+
+.programs__main h1{
+    text-align: center;
+}
+
+.programs__content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left__section{
+    padding: 1rem;
+}
+
+.left__section h2{
+    padding-bottom: 1rem;
+    font-size: larger;
+}
+
+.left__section p{
+    padding-bottom: 1rem;
+    width: 30rem;
+    font-size: medium;
+    text-align: justify
+}
+
+.left__section img{
+    height: 30rem;
+}
+
+.right__section{
+    padding: 1rem;
+}
+
+.right__section h2{
+    padding-bottom: 1rem;
+    font-size: larger;
+}
+
+.right__section p{
+    padding-bottom: 1rem;
+    width: 30rem;
+    font-size: medium;
+    text-align: justify;
+}
+
+.right__section img{
+    height: 30rem;
+}
+
+.programs__main button{
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    border-radius: 0.4rem;
+    background: red;
+    color: white;
+    text-align: center;
+    font-size:medium;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1060px) {
+    .programs__main{
+        padding:1.5rem;
+        background: black;
+        color: white;
+    }
+    .programs__content{
+        display: flex;
+        flex-direction: column;
+    }
+    .left__section{
+        padding: 0;
+    }
+    
+    .left__section p{
+        padding-bottom: 1rem;
+        width: 25rem;
+        font-size: medium;
+        text-align: justify
+    }
+    
+    .left__section img{
+        height: 20rem;
+    }
+    
+    .right__section{
+        padding: 0;
+    }
+    
+    .right__section p{
+        padding-bottom: 1rem;
+        width: 25rem;
+        font-size: medium;
+        text-align: justify
+    }
+    
+    .right__section img{
+        height: 20rem;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .programs__main{
+        padding:1rem;
+        background: black;
+        color: white;
+    }
+    .programs__content{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .left__section p{
+        padding-bottom: 1rem;
+        width: 17rem;
+        font-size: medium;
+        text-align: justify
+    }
+    
+    .left__section img{
+        height: 15rem;
+    }
+    
+    .right__section{
+        padding: 0;
+    }
+    
+    .right__section p{
+        padding-bottom: 1rem;
+        width: 17rem;
+        font-size: medium;
+        text-align: justify
+    }
+    
+    .right__section img{
+        height: 15rem;
+    }
+}

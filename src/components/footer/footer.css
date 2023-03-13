@@ -1,0 +1,117 @@
+.footer__main{
+   padding: 2rem 5rem 2rem 5rem;
+   background: black;   
+}
+
+.footer__grid{
+    border-bottom: 1px solid rgb(69, 69, 69);
+    padding-bottom: 2rem;
+    margin-bottom: 1rem;
+}
+
+.footer__contact{
+    display: flex;
+}
+
+.footer__contact__logo{
+    margin-right: 0.5rem;
+}
+
+.footer__contact__text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer__contact__text p{
+    color: rgb(82, 82, 224);
+}
+
+.column1{
+    display: flex;
+    flex-direction: column;
+}
+
+.column1 b{
+    text-align: left;
+    margin-top: 1rem;
+}
+
+.column2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.useful__links{
+    display: flex;
+    flex-direction: column;
+}
+
+.links__wrap{
+    margin-top: 1rem;
+    display: flex;
+    gap: 10rem;
+}
+
+.links__wrap a{
+   color: rgb(69, 69, 69);
+   font-size: large;
+   text-decoration: none;
+   margin-bottom: 1rem;
+   letter-spacing: 1px;
+}
+
+.left_links{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.right_links{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.column3{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.column3 p{
+    text-align: center;
+    color: rgb(69, 69, 69);
+    font-size: smaller;
+}
+
+.column3 form{
+    display: flex;
+    width: 100%;
+}
+
+.column3 input{
+    margin-top: 1rem;
+    height: 2.1rem;
+    width: 100%;
+}
+
+.column3 button{
+    background: red;
+    margin-top: 1rem;
+    height: 2.3rem;
+    border: none;
+}
+
+@media screen and (max-width: 760px) {
+    .footer__main{
+        padding:1rem;
+        background: black;   
+     }
+     .links__wrap{
+        margin-top: 1rem;
+        display:contents;
+        gap: 10rem;
+    }
+}

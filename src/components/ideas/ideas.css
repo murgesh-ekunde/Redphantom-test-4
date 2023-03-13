@@ -1,0 +1,90 @@
+.ideas__main{
+    background-image: url('../../assets/table.png');
+    min-height: 50vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 5rem 15rem 5rem 15rem ;
+}
+
+.ideas__main h3{
+    letter-spacing: 7px;
+    font-weight:500;
+}
+
+.ideas__main h1{
+    letter-spacing: 3px;
+    font-weight: 700;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.ideas__main p{
+    text-align: center;
+    padding: 0 10rem 0 10rem;
+    letter-spacing: 1px;
+    line-height: 25px;
+    font-size: large;
+}
+
+.ideas__main button{
+    margin-top: 2rem;
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    border: 0px;
+    border-radius: 0.4rem;
+    background: red;
+    color: white;
+    text-align: center;
+    font-size:medium;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1060px) {
+    .ideas__main{
+        background-image: url('../../assets/table.png');
+        min-height: 50vh;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        text-align: center;
+        padding: 1rem 0 1rem 0 ;
+    }
+    
+    .ideas__main h3{
+        letter-spacing: 7px;
+        font-weight:500;
+    }
+    
+    .ideas__main h1{
+        letter-spacing: 3px;
+        font-weight: 700;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    
+    .ideas__main p{
+        text-align: center;
+        padding: 0;
+        letter-spacing: 1px;
+        line-height: 25px;
+        font-size: large;
+    }
+    
+    .ideas__main button{
+        margin-top: 2rem;
+        padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+        border: 0px;
+        border-radius: 0.4rem;
+        background: red;
+        color: white;
+        text-align: center;
+        font-size:medium;
+        cursor: pointer;
+    }
+}
+
