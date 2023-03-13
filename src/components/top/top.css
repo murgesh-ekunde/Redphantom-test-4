@@ -3,22 +3,24 @@
     justify-content: space-between;
     margin: 0 15rem 0 15rem;
     background-image: url(../../assets/plane.png);
-    background-position: 25% 50%  ;
+    background-position: 45% 40% ;
     background-repeat: no-repeat;
     background-size: 20%;
-
 }
-
+  
 main .left{
     display: flex;
+    font-size: large;
     flex-direction: column;
     width: 40rem;
     justify-content: center;
     align-items: center;
 }
 
-main .left p{
+main .left h3{
+    margin-top: 2rem;
     padding: 0.5rem 1rem 0.5rem 1rem;
+    font-weight: 300;
     text-align: center;
     border: 1px solid black
 }
